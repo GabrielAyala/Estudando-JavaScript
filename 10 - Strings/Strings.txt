@@ -1,0 +1,12 @@
+String = Texto
+
+lidando com string de varias formas:
+
+contar qtd de letras: string.length
+definir a ordem da letra (primeira, segunda e etc): string[1], string[2] e etc
+primeiro indice de uma letra: string.indexOf('a')
+ultimo indice de uma letra: string.LastIndexOf('a')
+ultimas 3, 4 ou 5 letras de uma string: string.slice(-3, string.length), string.slice(-4, string.length) e etc
+dividir em palavras: string.split(' ')
+deixar tudo maiusculo: string.toUpperCase
+deixar tudo minusculo: string.toLowerCase

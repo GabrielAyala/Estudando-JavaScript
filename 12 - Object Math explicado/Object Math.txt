@@ -1,0 +1,12 @@
+Math.floor = arredondar uma variavel para "baixo"
+let n1 = Math.ceil(n1); // Math.ceil = arredondar uma variavel para "cima"
+console.log(n1);
+Math.round = retorna o valor de um número arredondado para o inteiro mais proximo
+Math.max = mostra o maior numero entre varios
+Math.min = mostra o menor numero entre varios
+Math.random = gera um numero aleatorio
+Math.pow = usar potencia
+
+//Um numero aleatorio entre 5 e 10
+const aleatorio = Math.round(Math.random() * (10 - 5) + 5);
+console.log(aleatorio);
